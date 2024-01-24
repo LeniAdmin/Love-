@@ -1,0 +1,152 @@
+<DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UFT-8">
+<meta name="viewport"
+content="width=device-width, initial-
+scale=1.0">
+<title>Warum ich dich liebe
+</title>
+<style> 
+body {
+font-family:'Arial', sans-serif;
+text-aling: center;
+margin: 50px;
+background-color: #ffcccb;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+jutify-content: center;
+height: 100vh; 
+}
+
+h1 { 
+color: #333
+}
+
+#reason {
+front-size: 35px;
+color: #e74c3c; 
+margin-top: 20px;
+}
+
+#heart {
+color: #e74c3c;
+font-size: 30px;
+margin-bottom: -5px
+}
+
+button {
+background-color: #66cdaa;
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 8px;
+border: none;
+cursor: pointer;
+font-size 16px;
+transition: background-color 0.3s ease;
+margin top: 20px
+}
+
+button: hover,
+button:active,
+button:focus {
+background-color: #4b8c77;
+}
+
+
+</style>
+</head>
+<body>
+
+<h1><span id="heart">❤</span> Gründe, warum ich dich liebe
+</h1>
+
+<button onclick="zeigeGrund()">Zeige Grund
+</button>
+<p id="reason"></p>
+
+<script>
+const gruende= [
+"weil dein lachen so wunderschoen ist",
+"weil mit dir jeder Tag besser wird",
+"weil du die Person bist, die ich als erste nach dem Aufwachen und als letzte vor dem einschlafen sehen will",
+"weil du in der Küche immer tanzt",
+"deine Ehrlichkeit",
+"weil du an mich glaubst, wenn ich Zweifel hab",
+"Das Laecheln nach einem Kuss",
+"Weil du die schoensten Augen hast, die ich kenne",
+"weil du dir zeit für mich nimmst",
+"weil ich durch dich zu einem besseren Menschen werde",
+"weil wir uns die freiheiten, sowie die zuneigung geben die wir brauchen",
+"weil du geduldig mit mir bist",
+"weil du in Gedanken immer und ueberall bei mir bist",
+"weil du mich, auch wenn du schläfst, nie loslaesst",
+"weil du nicht einfach aufgibst",
+"weil ich deine Rueckenmassagen liebe",
+"weil du fuersorglich bist",
+"weil du auch meine schlechte laune probierst zu verstehen",
+"weil du mit mir abenteuer erleben willst",
+"weil ich einfach nicht genug von dir kriegen kann",
+"weil du entschuldigungen ernst meinst",
+"weil du immer tolle ideen hast",
+"weil dein Anblick mich immer noch nervös macht",
+"weil wir so viele schoene erinnerungen gemeinsam haben",
+"weil ich mich bei dir so sicher fuehle",
+"weil du meine Hand haeltst wenn ich es brauche",
+"weil das Bett mit dir immer warm ist",
+"weil nichts mich mehr beruhigen kann, als wenn du mich in den schlaf kraulst",
+"weil du einen Streit nie im Raum stehen laesst",
+"weil ich gerne in deinen Klamotten schlafe, nur weil sie nach dir riechen",
+"weil ich dich aufrichtig liebe und weiss was ich will",
+"weil wir viel spass zusammen haben",
+"weil nur deine haende mich beruehren duerfen",
+"weil wir manchmal aneinander vorbei reden können",
+"weil du auch beim Kochen talent hast",
+"weil du dich, sowie auch mich fuer viele sachen begeistern kannst",
+"weil du mir immer genau die richtigen Blumen schenkst",
+"weil wir so verschieden und doch so gleich sind",
+"weil du mich herausforderst",
+"weil du mit mir singst",
+"weil ohne dich etwas fehlt",
+"weil du manchmal noch ein grosses Kind bist",
+"weil wir diskutieren wer das letzte stück isst",
+"weil wir voneinander lernen",
+"weil ich hoffe, dass du es bist wenn ich eine Nachricht bekomme",
+"weil es noch viel mehr Gründe gibt, warum ich dich liebe",
+"weil du mich immer abholst",
+"weil du so gut kuessen kannst",
+"weil dein Fruehstueck ans Bett mit viel liebe gemacht ist",
+"weil wir immer einen weg finden uns zu sehen",
+"weil du keine angst vor Albernheiten hast",
+"weil du dich immer nach mir erkundigst",
+];
+
+function zeigeGrund () {
+const zufallsIndex = 
+Math.floor(Math.random() *
+gruende.length);
+const grund= gruende[zufallsIndex];
+
+document.getElementById('reason').textContent= grund;
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
